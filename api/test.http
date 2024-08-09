@@ -1,0 +1,24 @@
+@baseUrl = http://localhost:3000
+
+GET {{baseUrl}}
+Accept: application/json
+
+###
+
+GET {{baseUrl}}/clzmfp28x0000xov3120hhycg
+Accept: application/json
+
+###
+
+POST {{baseUrl}}/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "User1",
+  "email": "user2@example.com"
+}
+
+###
+
+PUT {{baseUrl}}/users/clzmfp28x0000xov3120hhycg
